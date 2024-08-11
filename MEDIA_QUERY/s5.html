@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     <style>
+
+           *{
+              box-sizing: border-box;
+           }
+           .Contaier{
+              display: flex;
+              font-size: 30px;
+              text-align: center;
+              flex-wrap: wrap;
+           }
+           .item1{
+               background-color: aqua;
+               padding: 10px;
+               flex: 50%;
+           }
+           .item2{
+               background-color: rgb(64, 70, 70);
+               padding: 10px;
+               flex: 50%;
+           }
+
+            @media (max-width:800px) {
+                 .item1,.item2 {
+                      flex:100%;
+                      color: red;
+                 }
+                
+            }
+
+     </style>
+</head>
+<body>
+
+        <div class="Contaier">
+             <div class="item1">Welcoem to my class</div> 
+             <div  class="item2">Will learn Web Devolopment!!!! here</div>
+             <div class="item1">Welcoem to my class</div> 
+             <div  class="item2">Will learn Web Devolopment!!!! here</div>
+
+        </div>
+    
+</body>
+</html>

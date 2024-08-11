@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .header{
+            background: palevioletred;
+            color: navy;
+            height: 100px;
+            padding: 20px;
+            margin: 10px;
+           align-content: center;
+            display: flex;
+        }
+        .nav{
+            display:flex;
+            flex-direction:column;
+            padding: 10px;
+           
+            
+        }
+        .nav a{
+            background: plum;
+          flex: 50%;
+          text-decoration: none;
+          padding: 10px;
+         
+        }
+       
+        h3{
+            background: palegoldenrod;
+            padding: 10px;
+            text-align: center;
+            
+        }
+        .container{
+            height: 200px;
+            width: 200px;
+            display: flex;
+           text-align: center;
+          
+        }
+        .slide{
+            display: flex;
+            padding: 20px;
+            align-content: space-around;
+            border: 2px solid black;
+           
+        }
+        img{
+            height: 200px;
+            width: 200px;
+        }
+        .first{
+            text-align: center;
+            padding: 20px;
+            align-content: space-evenly ;
+        }
+        @media screen and (max-width:500px) {
+           .container,.slide,.first,.nav,img,.header{
+               flex-direction: column
+               
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>ART GALLERY</h1>
+    </div>
+    <div class="nav">
+        <div class="NAV">
+        <a href="#">Home</a>
+        <a href="#">Login</a>
+        <a href="#">About us</a>
+        <a href="#">Learn more</a>
+    </div>
+    </div>
+    <h3>Gallery</h3>
+    <div class="Container">
+        <div class="slide">
+            <div class="first"><h4>photo</h4> <img src="/Images/ex5.jpg" alt=""></div>
+            <div class="first"><h4>photo</h4> <img src="/Images/ex6.jpg" alt=""></div>
+            <div class="first"><h4>photo</h4> <img src="/Images/ex7.jpg" alt=""> </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            margin: 30px;
+            height: 200px;
+            width: 200px;
+        }
+        table,th,td{
+            border-collapse: collapse;
+            padding: 20px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        tr{
+            font-size: 30px;
+        }
+        th{
+            font-size: 40px;
+        }
+        td,th{
+            border-bottom: Black 3px solid;
+            font-family: 'Times New Roman', Times, serif;
+           
+        }
+        tr:nth-child(odd){
+            background: pink;
+            color: brown;
+        }
+        tr:nth-child(even){
+            background: palegoldenrod;
+        }
+        td:nth-child(2){
+            background: violet;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Sr.no</th>
+            <th>Name</th>
+            <th>Image</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Flower</td>
+            <td>
+                <img src="/Images/flower.png" alt="flower" height="50px" width="50px">
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Pianting</td>
+            <td>
+                <img src="/Images/ex5.jpg" alt="Painting" height="50px" width="50px">
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>painting</td>
+            <td>
+                <img src="/Images/painting.jpg" alt="fpainting" height="50px" width="50px">
+            </td>
+        </tr>
+    </table>
+
+    
+</body>
+</html>

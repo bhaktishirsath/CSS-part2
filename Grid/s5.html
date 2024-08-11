@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            background-color: rgb(233, 153, 233);
+            padding: 10px;
+            width: 800px;
+            height: 500px;
+            display: grid;
+            grid-template-columns:auto auto auto;
+            
+
+
+        }
+        .grid-container>div{
+            background-color: palegoldenrod;
+            
+               padding: 30px;
+             border: 1px solid brown;
+            font-size: large;
+        }
+        .items1{
+            grid-column-start:1 ;
+            grid-column-end: 3;
+        }
+        .item2{
+
+        grid-column-start:2;
+        grid-column-end: 3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+       
+        <div class="items1">HELLO</div>
+        <div class="items2">welcome</div> 
+        <div class="items3">to</div>
+        <div class="items4">art</div>
+        <div class="items5">exibition</div>
+        <div class="items6">!!!</div></div>
+   
+</body>
+</html>

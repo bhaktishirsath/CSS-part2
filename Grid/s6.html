@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .grid-container{
+                background-color: aquamarine;
+                padding: 100px;
+                /* width:800px; */
+                height: 500px;
+                display:grid;
+                grid-template-columns: 300px auto 300px;
+             
+       
+            }
+
+            .grid-container >div   {
+               background-color: rgb(193, 193, 217);
+               color: rgb(22, 132, 228);
+               padding: 30px;
+               font-size: 30px;
+               border: 2px solid rgb(62, 56, 56);
+               text-align: center;
+           
+         }
+   
+              .item1{
+                       grid-row-start: 1;
+                       grid-row-end:4 ;
+              }
+              .item2{
+                       grid-row-start: 1;
+                       grid-row-end:5 ;
+              }
+              .item3{
+                       grid-row-start: 1;
+                       grid-row-end:8;
+              }
+
+    </style>
+</head>
+<body>
+
+
+        <div class="grid-container">
+
+                <div class="item1">One</div>
+                <div class="item2">tw0</div>
+                <div class="item3">three</div>
+                <div class="item4">four</div>
+                <div class="item5">five </div>
+                <div class="item6">six</div>
+                <div class="item7">seven</div>
+                <div class="item8">eight</div>
+                <div class="item9">nign</div>
+
+        </div>
+    
+</body>
+</html>
